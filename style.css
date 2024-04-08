@@ -1,0 +1,60 @@
+body {
+    background-image: url("hatter.png");
+    background-repeat: repeat;
+    font-family: 'Courier New', Courier, monospace;
+  } 
+  
+
+
+.container {
+    width: 40%;
+    border: 2px solid #fff;
+    padding: 20px; 
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: 0 15px 25px;
+    text-align: center;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .choice {
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .player-opponent {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .player-choice,
+  .opponent-choice {
+    margin: 0 20px;
+  }
+  
+  .player-choice img,
+  .opponent-choice img {
+    width: 100px;
+  }
+  
+  .opponent-choice img {
+    transform: scaleX(-1);
+  }
+  
+  .result,
+  .score {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  

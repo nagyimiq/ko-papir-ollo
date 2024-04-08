@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kő-Papír-Olló</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kő-Papír-Olló</h1>
+    <div class="choices">
+      <img src="rock.png" alt="Kő" class="choice" data-choice="rock">
+      <img src="paper.png" alt="Papír" class="choice" data-choice="paper">
+      <img src="scissors.png" alt="Olló" class="choice" data-choice="scissors">
+    </div>
+    <div class="score" id="score">Játékos 0 - 0 Számítógép</div>
+    <div class="player-opponent">
+      <div class="player-choice">
+        <p>Játékos:</p>
+        <img id="playerImg" src="" alt="">
+      </div>
+      <div class="opponent-choice">
+        <p>Számítógép:</p>
+        <img id="opponentImg" src="" alt="">
+      </div>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
